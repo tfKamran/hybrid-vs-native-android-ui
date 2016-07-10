@@ -14,6 +14,11 @@ h1 {
     padding-left: 75px;
 }
 
+.item-avatar img {
+    border-radius: 0 !important;
+    box-shadow: none;
+}
+
 .card {
     margin: 0px;
     display: block;
@@ -22,6 +27,10 @@ h1 {
 .card .item {
     min-height: auto !important;
     padding: 16px;
+}
+
+.card .item p:nth-child(2) {
+    font-weight: bold;
 }
 
 .item.card-item {
