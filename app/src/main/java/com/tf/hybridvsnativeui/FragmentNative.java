@@ -50,7 +50,7 @@ public class FragmentNative extends Fragment {
                 sampleItems.add(new ListItem(Drawable.createFromStream(getResources()
                         .getAssets().open("avatars/myTerminal.jpg"), null),
                         "myTerminal",
-                        "Programmer, Gamer, Trance-lover, Nerd, Imposter, Thoughtful, Muslim, Methodical, Righteous"));
+                        "programmer, gamer, trance-lover, nerd, imposter, non-conformant, anti-hero"));
                 sampleItems.add(new ListItem(Drawable.createFromStream(getResources()
                         .getAssets().open("avatars/genialRysa.jpg"), null),
                         "genialRysa",
